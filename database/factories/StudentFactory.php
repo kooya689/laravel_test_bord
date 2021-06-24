@@ -23,7 +23,7 @@ class StudentFactory extends Factory
     {
         return [
             'firstname' => $this->faker->firstname,
-            'lasttname' => $this->faker->lastname,
+            'lastname' => $this->faker->lastname,
             'email' => $this->faker->email,
             'phone' => $this->faker->phoneNumber,
 
